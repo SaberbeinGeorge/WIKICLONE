@@ -199,9 +199,6 @@ header .center-img img{
     height: 44px;
     cursor: pointer;
 }
-.section_input .search_container:hover {
-    background-color: #016fe5;
-}
 .search_container .search_img {
     width: 25px;
     height: 25px;
