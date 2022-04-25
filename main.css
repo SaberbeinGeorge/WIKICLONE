@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url(//db.onlinewebfonts.com/c/dfb65e12b864428604262596b857d782?family=Linux+Libertine);
+@font-face {
+    font-family: "Linux Libertine"; src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot"); src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff") format("woff"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.svg#Linux Libertine") format("svg"); 
+}
+html {
+    font-size: 62.5%;
+    font-family: Linux Libertine;
+}
+body {
+    font-size: 2.3rem;
+}
+header {
+    margin-top: 40px;
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+header .header-container {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+header .header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header .center-img {
+    width: auto;
+    height: 300px;
+    min-width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;  
+}
+header .center-img img{
+    width: 200px;
+    height: 183px;
+     
+}
+
+.main-section1 {
+    width: auto;
+    min-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.main-section1 strong {
+    color: rgb(51, 102, 204);
+    font-size: 2.8rem;
+}
+.main-section1 .section-1_span {
+    color: rgb(84, 89, 93);
+}
+
+.main-section1 .section-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.section-1 div {
+    display: flex;
+    flex-direction: column;
+}
+.section-1 div .section-1_tex {
+    text-align: center;
+}
+
+.main-section1 .section-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.section-2 div {
+    display: flex;
+    flex-direction: column;
+}
+.section-2 div .section-2_tex {
+    text-align: center;
+}
+
+.main-section1 .section-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.section-3 div {
+    display: flex;
+    flex-direction: column;
+}
+.section-3 div .section-3_tex {
+    text-align: center;
+}
+
+.main-section1 .section-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.section-4 div {
+    display: flex;
+    flex-direction: column;
+}
+.section-4 div .section-4_tex {
+    text-align: center;
+}
+
+.main-section1 .section-5 {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+}
+.section-5 div {
+    display: flex;
+    flex-direction: column;
+}
+.section-5 div .section-5_tex {
+    text-align: center;
+}
+
+.main-section2 {
+    width: auto;
+    min-width: 500px;
+    margin-bottom: 30px;
+}
+.main-section2 .section_input {
+    width: 470px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section_input .input_container {
+    border: 1px solid #d0d4d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+}
+.input_container .div_input{
+    width: 80%;
+    height: 70%;
+}
+.div_input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.input_container .input-logo_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8%;
+    height: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.input-logo_text span {
+    color: #54595d;
+}
+.input_arrow {
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAAD09PT8/Pz4+Pju7u5eXl7g4ODW1taenp6urq6JiYm9vb3BwcHLy8ssLCxOTk4QEBAzMzPc3NxCQkLm5uZkZGRWVlYfHx+YmJhISEhqamq1tbWOjo7Pz891dXU6Ojp/f38aGhpxcXEnJyempqYUFBSKiorUzSpLAAAD90lEQVR4nO3b6VoiMRCFYZpFREFUFhU3UBjv/w7HcdQ+UZCYVDrR53t/Q1LF0p1UdVotAAAAAAAAAAAAAAAAAAAAAAAAAAAAAChM53DYyx3Dl7qTWSfm/aOHqqpWXatw7A2e41ufhL9/Vr1YFJvi/H+As9gBqvNCUzx4je80eITx6wjVuMQ/Y/fiLbzL4L/itCo4xe7pe3Tr4EGu3seoztqGwVno1B9/dR8+zFJSDP87p9A+r0OrIu4X7YWk2LeLL1pPEnyI+uzlx15V5aTYG9dRXUb+uDqa4sQmvmi9P5Jg/DXwQlI8NAgv3kwiGltcAecyYMQCyUxfvsGpzSX+uqgU+xLNwuoepimOjMYMdSixTKO2FY57GfbGbNQQdxLJheXAxzLwkeXA33QiccztvsF/VkWkqAkeWA9+K4MPrAf3NJIYru2Hv8qe4o1EELHY3m0gE1ylmGCPo9QJulPcppnCc/ZVE5Mcp5pkh0Ezc9808TlupVeBpL+fUaYUG7zMaYqPaacSx80l6N50E9yTtmp4RaUrw3n66VrueqqRVbGu7k0XvztkWPZPZMpT2+XvFlm2bpOHelLDPdpWmSoM/bN62mXSpsZBngTdatcyXTm8k7EMpiXZdaqmhlbum6/zOVXnNCl2lzkTfJ5/nfhbdBLM0jXpym8oQd+mbVi5D9WVvo15xb+nP5Fsfa+ETY3eZT1y1vaspmh5LZjJmiLZpdpPmjvypLEVhYcUTQ1d+Jq1JsLZr4wTtSbC6e5maDCebkDDn5QxpVvw+A1c0sp9qCcJKrbKMCoxQbepEZdioQm69dpNxDhakG2ulOdFUwyv9zVSuQ+1keBC+zY5uwYe4vs2m7ITjG9qaOU+R/fOwzAqRZt/cmJ6qf9uD7OELrqH8KbGSt4Zc7tJTteU37lha4J5H9jZKyzFcp5I8hDSt9ENmMXuJDHn0UGvd2idIPdjc176UmPxOYyilfv8jz56mUmVZW8RwmlN3DUSnwGtdZ7vSVFrrmU8guzFu2/TkRee/aAEW62ulOTHuyvWbW0ulXMUwEtb2io7i/L6oqKOc3hx+jbbo9fKfa7eS5R9h1FmkmDmyn2gPS3qmVxwCzwa5+erFPVhB5NjIXnogtO9m2trYpq79xLjURLRFZmuzxcltCbC6b6oXlXf/Z4E3b3t284o2bGQPD73bZxjIZmjM3H7IcXhb0vQLYRunAQLa02E01KoXnqKa02E03p9rcjKfaijLQk+5Q7K1ucUmz91k9jwQ4IFV+5DDX97gm7fpujWRLh6sZbzoG1SbzuK4lsT4SYvJbgfUbkPNhrc/NwNPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4+gvE5SQc8RbidAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.section_input .search_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    /* background-color: #3366cc; */
+    width: 10%;
+    height: 44px;
+    cursor: pointer;
+}
+.section_input .search_container:hover {
+    background-color: #016fe5;
+}
+.search_container .search_img {
+    width: 25px;
+    height: 25px;
+    background-image: url(https://andreselprogramador.github.io/Wikipedia-clone/img/sprite_assets/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
