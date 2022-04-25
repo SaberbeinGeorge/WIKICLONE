@@ -3,13 +3,10 @@
     margin: 0;
     padding: 0;
 }
-@import url(//db.onlinewebfonts.com/c/dfb65e12b864428604262596b857d782?family=Linux+Libertine);
-@font-face {
-    font-family: "Linux Libertine"; src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot"); src: url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.woff") format("woff"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dfb65e12b864428604262596b857d782.svg#Linux Libertine") format("svg"); 
-}
+
 html {
     font-size: 62.5%;
-    font-family: Linux Libertine;
+    font-family: serif;
 }
 body {
     font-size: 2.3rem;
